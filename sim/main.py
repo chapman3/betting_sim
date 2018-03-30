@@ -2,7 +2,6 @@ from __future__ import division
 import prop
 
 def main():
-	output = open("output.txt", "w")
 	payout = 0
 	for i in range(1000):
 		team1 = prop.Prop(100, "Team 1")
